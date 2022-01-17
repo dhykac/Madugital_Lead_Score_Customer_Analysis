@@ -1,1 +1,36 @@
-# UNDER CONSTRUCTION
+# Madugital Customer Lead Score Analysis
+
+This repository is about my analysis for Madugital Customer using lead scoring.
+
+* [Dataset](https://github.com/dhykac/Madugital_Lead_Score_Customer_Analysis/blob/main/lead_scoring.csv)
+* [Data Description](https://github.com/dhykac/Madugital_Lead_Score_Customer_Analysis/blob/main/Leads%20Data%20Dictionary.xlsx)
+* [Notebook](https://github.com/dhykac/Madugital_Lead_Score_Customer_Analysis/blob/main/Madugital%20Customer%20Lead%20Score%20Analysis.ipynb)
+
+### Packages
+```python
+import warnings
+warnings.filterwarnings('ignore')
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+from sklearn import preprocessing
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, roc_auc_score, f1_score, recall_score, precision_score, accuracy_score
+```
+
+### Objectives
+This code is to predict the customers converted or not using their lead score with help of Random Forest Classifier. The target columns for this objective is `['Converted']`
+
+### Results Overview
+* The model succeed to predict with rate 85.06% accuracy.
+* The model predicted converted and the customer actually converted is 528.
+* The model predicted not converted and the customer actually converted is 85.
+* The model predicted converted and the customer actually not converted is 53.
+* The model predicted not converted and the customer actually not converted is 258.
+* AUC : The model succeed to distinct between True Positive and True Negative with chance 83.04%
+* F1 Score : the harmonic mean between precission and recall is 78.89% which is important for us to consider False Positive and False Negative.
+* Precission : The rate of model predict results are False Positive (which is 82.95%)
+* Recall : The rate of model predict results are False Negative (which is 75.21%)
