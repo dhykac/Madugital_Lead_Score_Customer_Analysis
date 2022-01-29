@@ -1,6 +1,6 @@
-# Madugital Customer Lead Score Analysis
+# X Education Customer Lead Score Analysis
 
-This repository is about my analysis for Madugital Customer using lead scoring.
+This repository is about my analysis for X Education Customer using lead scoring.
 
 * [Dataset](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/lead_scoring.csv)
 * [Data Description](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/Leads%20Data%20Dictionary.xlsx)
