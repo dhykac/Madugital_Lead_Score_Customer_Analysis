@@ -25,6 +25,7 @@ from sklearn.metrics import confusion_matrix, roc_auc_score, roc_curve, f1_score
 This code is to predict the customers converted or not using their lead score with help of Random Forest Classifier. The target columns for this objective is `['Converted']`
 
 ### Results Overview
+![roc curve](https://user-images.githubusercontent.com/92696555/151674862-66070ed8-af76-4cb6-a514-ee25e1a1af1a.png)
 * The model succeed to predict with rate 85.06% accuracy.
 * The model predicted converted and the customer actually converted is 528.
 * The model predicted not converted and the customer actually converted is 85.
