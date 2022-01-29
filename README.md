@@ -2,9 +2,9 @@
 
 This repository is about my analysis for Madugital Customer using lead scoring.
 
-* [Dataset](https://github.com/dhykac/Madugital_Lead_Score_Customer_Analysis/blob/main/lead_scoring.csv)
-* [Data Description](https://github.com/dhykac/Madugital_Lead_Score_Customer_Analysis/blob/main/Leads%20Data%20Dictionary.xlsx)
-* [Notebook](https://github.com/dhykac/Madugital_Lead_Score_Customer_Analysis/blob/main/Madugital%20Customer%20Lead%20Score%20Analysis.ipynb)
+* [Dataset](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/lead_scoring.csv)
+* [Data Description](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/Leads%20Data%20Dictionary.xlsx)
+* [Notebook](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/X_Education_Customer_Lead_Score_Analysis.ipynb)
 
 ### Packages
 ```python
@@ -30,7 +30,7 @@ This code is to predict the customers converted or not using their lead score wi
 * The model predicted not converted and the customer actually converted is 85.
 * The model predicted converted and the customer actually not converted is 53.
 * The model predicted not converted and the customer actually not converted is 258.
-* AUC : The model succeed to distinct between True Positive and True Negative with chance 83.04%
-* F1 Score : the harmonic mean between precission and recall is 78.89% which is important for us to consider False Positive and False Negative.
-* Precission : The rate of model predict results are False Positive (which is 82.95%)
-* Recall : The rate of model predict results are False Negative (which is 75.21%)
+* AUC : The model succeed to distinct between True Positive and True Negative with chance 91.9%
+* F1 Score : the harmonic mean between precission and recall is 78.9% which is important for us to consider False Positive and False Negative.
+* Precission : The rate of model predict results are False Positive (which is 83%)
+* Recall : The rate of model predict results are False Negative (which is 75.2%)
