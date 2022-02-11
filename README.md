@@ -26,12 +26,12 @@ This code is to predict the customers converted or not using their lead score wi
 
 ### Results Overview
 ![roc curve](https://user-images.githubusercontent.com/92696555/151674862-66070ed8-af76-4cb6-a514-ee25e1a1af1a.png)
-* The model succeed to predict with rate 85.06% accuracy.
-* The model predicted converted and the customer actually converted is 528.
-* The model predicted not converted and the customer actually converted is 85.
+* The model succeed to predict with rate 86.03% accuracy.
+* The model predicted converted and the customer actually converted is 267.
+* The model predicted not converted and the customer actually converted is 76.
 * The model predicted converted and the customer actually not converted is 53.
-* The model predicted not converted and the customer actually not converted is 258.
-* AUC : The model succeed to distinct between True Positive and True Negative with chance 91.9%
-* F1 Score : the harmonic mean between precission and recall is 78.9% which is important for us to consider False Positive and False Negative.
-* Precission : The rate of model predict results are False Positive (which is 83%)
-* Recall : The rate of model predict results are False Negative (which is 75.2%)
+* The model predicted not converted and the customer actually not converted is 528.
+* AUC : The model succeed to distinct between True Positive and True Negative with chance 92.04%
+* F1 Score : the harmonic mean between precission and recall is 80.54% which is important for us to consider False Positive and False Negative.
+* Precission : The rate of model predict results are False Positive (which is 83.44%)
+* Recall : The rate of model predict results are False Negative (which is 77.84%)
