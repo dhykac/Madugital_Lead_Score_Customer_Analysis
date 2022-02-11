@@ -4,7 +4,7 @@ This repository is about my analysis for X Education Customer using lead scoring
 
 * [Dataset](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/Leads_X_Education.csv)
 * [Data Description](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/Leads%20Data%20Dictionary.xlsx)
-* [Notebook](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/X%20Education%20Lead%20Score%20Analysis.ipynb)
+* [Notebook](https://github.com/dhykac/X_Education_Lead_Score_Customer_Analysis/blob/main/X_Online_Education_Lead_Scoring_Analysis.ipynb)
 
 ### Packages
 ```python
