@@ -26,12 +26,24 @@ This code is to predict the customers converted or not using their lead score wi
 
 ### Results Overview
 ![roc curve](https://user-images.githubusercontent.com/92696555/151674862-66070ed8-af76-4cb6-a514-ee25e1a1af1a.png)
-* The model succeed to predict with rate 86.03% accuracy.
+* The model succeed to predict with rate 86.68% accuracy.
 * The model predicted converted and the customer actually converted is 267.
 * The model predicted not converted and the customer actually converted is 76.
-* The model predicted converted and the customer actually not converted is 53.
-* The model predicted not converted and the customer actually not converted is 528.
-* AUC : The model succeed to distinct between True Positive and True Negative with chance 92.04%
-* F1 Score : the harmonic mean between precission and recall is 80.54% which is important for us to consider False Positive and False Negative.
+* The model predicted converted and the customer actually not converted is 47.
+* The model predicted not converted and the customer actually not converted is 534.
+* AUC : The model succeed to distinct between True Positive and True Negative with chance 92.99%
+* F1 Score : the harmonic mean between precission and recall is 81.28% which is important for us to consider False Positive and False Negative.
 * Precission : The rate of model predict results are False Positive (which is 83.44%)
 * Recall : The rate of model predict results are False Negative (which is 77.84%)
+![SHAP](https://user-images.githubusercontent.com/92696555/159148786-d96369a5-daad-4471-b40e-4f13a5d3d058.png)
+* From the plot above, the three 3 most important feature from the model is `Total Time Spent on Website` , `Lead Quality` , and `Last Notable Activity` which is make sense because these three could be our basis to determine if the customers converted or not.
+
+### Simulation
+By using 924 customers data, with assumed 
+* revenue per customers 487 dollars ( Rp 7.000.000 )
+* cost per customers 417 dollars ( Rp 6.000.000 ) 
+* campaign success rate 100%`
+
+The ML model succeed to 
+* boost convertion rate by 49.57% 
+* raise the profit by 32.060 dollars ( Rp 460.698.376 )
